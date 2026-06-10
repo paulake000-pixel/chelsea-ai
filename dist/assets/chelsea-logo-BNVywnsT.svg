@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Definitions for gradients -->
+  <defs>
+    <linearGradient id="engineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#064e3b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#065f46;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="footballGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="ballShine" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" style="stop-color:#34d399;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Football/Soccer Ball -->
+  <circle cx="100" cy="105" r="55" fill="url(#footballGradient)"/>
+  
+  <!-- Ball shine effect -->
+  <circle cx="85" cy="90" r="25" fill="url(#ballShine)"/>
+
+  <!-- Classic football hexagon pattern -->
+  <!-- Center pentagon -->
+  <polygon points="100,85 112,94 108,108 92,108 88,94" fill="#064e3b"/>
+  
+  <!-- Surrounding hexagons/pentagons -->
+  <polygon points="100,85 108,75 118,80 112,94" fill="#047857"/>
+  <polygon points="112,94 125,88 132,100 120,108 108,108" fill="#047857"/>
+  <polygon points="108,108 120,108 115,122 100,125 92,108" fill="#047857"/>
+  <polygon points="92,108 100,125 85,122 80,108 88,94" fill="#047857"/>
+  <polygon points="88,94 80,108 68,100 75,88 88,94" fill="#047857"/>
+  <polygon points="75,88 68,100 72,82 85,75 88,94" fill="#047857"/>
+  <polygon points="85,75 100,70 115,75 108,94 100,85 88,94" fill="#047857"/>
+  <polygon points="115,75 128,82 132,100 125,88 112,94 108,94" fill="#047857"/>
+
+  <!-- Jet Engine integrated through the football -->
+  <!-- Engine body passing through the ball -->
+  <path d="M 45 90 L 155 90 L 160 105 L 155 120 L 45 120 L 40 105 Z" 
+        fill="url(#engineGradient)"/>
+
+  <!-- Engine Inlet (left side) -->
+  <ellipse cx="45" cy="105" rx="12" ry="18" fill="#022c22"/>
+  
+  <!-- Inner turbine detail -->
+  <ellipse cx="45" cy="105" rx="8" ry="12" fill="#064e3b"/>
+  <ellipse cx="45" cy="105" rx="5" ry="8" fill="#065f46"/>
+
+  <!-- Engine Nozzle (right side) -->
+  <path d="M 155 93 L 168 100 L 168 110 L 155 117" fill="#065f46"/>
+
+  <!-- Exhaust trails -->
+  <path d="M 168 102 L 180 100" stroke="#10b981" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 168 105 L 185 105" stroke="#10b981" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <path d="M 168 108 L 180 110" stroke="#10b981" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Engine accent stripes -->
+  <line x1="70" y1="90" x2="72" y2="120" stroke="#34d399" stroke-width="2" opacity="0.6"/>
+  <line x1="80" y1="90" x2="82" y2="120" stroke="#34d399" stroke-width="2" opacity="0.5"/>
+  <line x1="130" y1="90" x2="132" y2="120" stroke="#34d399" stroke-width="2" opacity="0.5"/>
+
+  <!-- Football seams/lines -->
+  <path d="M 55 70 Q 100 55 145 70" stroke="#064e3b" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M 55 140 Q 100 155 145 140" stroke="#064e3b" stroke-width="1" fill="none" opacity="0.4"/>
+</svg>

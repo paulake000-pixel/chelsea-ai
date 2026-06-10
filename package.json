@@ -13,13 +13,25 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@tavily/core": "^0.7.3",
+    "@extractus/article-extractor": "^8.1.0",
+    "@mozilla/readability": "^0.6.0",
+    "@tavily/core": "^0.7.5",
     "axios": "^1.16.0",
     "bcryptjs": "^3.0.3",
+    "cheerio": "^1.2.0",
     "cors": "^2.8.6",
+    "docx": "^9.7.1",
     "dotenv": "^17.4.2",
+    "duckduckgo-search": "^1.0.7",
     "express": "^5.2.1",
+    "googlethis": "^1.8.0",
     "groq-sdk": "^1.1.2",
-    "jsonwebtoken": "^9.0.3"
+    "jsdom": "^29.1.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.0",
+    "openai": "^6.42.0",
+    "playwright": "^1.60.0",
+    "pptx": "^0.0.0",
+    "xlsx": "^0.18.5"
   }
 }
